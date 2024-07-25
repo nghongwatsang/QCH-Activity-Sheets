@@ -1,9 +1,11 @@
 import datetime
 from openpyxl import load_workbook
 
-# Load the workbook and select the active sheet
-book = load_workbook('Week 2 Pathways.xlsx')
-sheet = book['Sheet1']
+# Name of Excel File
+book = load_workbook('Week 3.xlsx')
+
+#Change sheet based on which sheet you want the info read from, bottom of the page gives you the name of the sheet
+sheet = book['PM']
 
 
 def getIDS(ids: list) -> None:

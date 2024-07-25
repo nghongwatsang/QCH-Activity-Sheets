@@ -10,10 +10,14 @@ if __name__ == '__main__':
     tDay = []
     pay = []
 
-    pblName = 'Pathways'
-    week = '2'
+    #change based on the class
+    pblName = 'Computer Science PM'
 
-    facilitator = 'Alejandra Hernandez'
+    #Change based on the Week
+    week = '3'
+
+    #Change based on Facilitator
+    facilitator = 'Ngawang Ghongwatsang'
 
     # Filling in the lists
     getIDS(ids)
