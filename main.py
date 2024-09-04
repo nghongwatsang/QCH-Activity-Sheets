@@ -11,13 +11,13 @@ if __name__ == '__main__':
     pay = []
 
     #change based on the class
-    pblName = 'Computer Science PM'
+    pblName = getClass()
 
     #Change based on the Week
-    week = '3'
+    week = '5'
 
     #Change based on Facilitator
-    facilitator = 'Ngawang Ghongwatsang'
+    facilitator = 'name'
 
     # Filling in the lists
     getIDS(ids)
